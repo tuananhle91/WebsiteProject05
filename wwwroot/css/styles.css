@@ -11,8 +11,19 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Common ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+a {
+    text-decoration: none ;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Sora', sans-serif;
+}
+
+.container {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
 }
 
 input, textarea, select, button {
@@ -20,3 +31,59 @@ input, textarea, select, button {
     font-family: inherit;
 }
 
+.btn {
+    --height: 56px 
+    min-width: 130px;
+    display: inline-block;
+    height: var(--height);
+    line-height: var(--height);
+    border: 1px solid #000958;
+    border-radius: 99px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1;
+    text-align: center;
+    color: #000958;
+}
+
+/* ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Common ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ */
+
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Header ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-list {
+    display: flex;
+}
+
+.navbar-link, header-button-link {
+    padding: 8px 18px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1;
+    color: #5E6085;
+}
+
+.header-button-btn {
+    border: 1px solid #000958;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+/* ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Header ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ */
+
+
+
+
+
+
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+
+/* ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ */
